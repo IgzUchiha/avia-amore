@@ -92,5 +92,9 @@ main > * {
 main 
 {
   flex-direction: column;
+  
+}
+article{
+  justify-content: center;
 }
 }
