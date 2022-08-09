@@ -71,3 +71,26 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width:768px) 
+{
+ /* flex-direction: column; */
+  h1 {
+    
+    margin-bottom: 50px;
+    margin-right: 50px;
+    white-space:nowrap;
+ 
+  }
+  nav {
+    /* display:flex; */
+    margin-left: -230px;
+    margin-right: 1000px;
+    white-space:nowrap;
+    
+    margin-top: 50px;
+  }
+main 
+{
+  flex-direction: column;
+}
+}
